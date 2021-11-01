@@ -22,7 +22,7 @@ def test_get_largest_prime_below():
     assert get_largest_prime_below(2)=="Nu exista un astfel de numar"
     assert get_largest_prime_below(5)==3
     assert get_largest_prime_below(999)==997
-    assert get_largest_prime_below(21)==20
+    assert get_largest_prime_below(21)==19
 
 def is_superprime(n):
     '''
